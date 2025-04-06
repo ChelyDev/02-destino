@@ -45,6 +45,7 @@ header{
         }
     }
 
+
 .display-flex{
     display: flex;
 }
@@ -55,6 +56,12 @@ nav{
 
     margin-bottom: 84px;
 }
+
+    @media (max-width:402px) {
+        header section nav a{
+            width: 153px;
+        }
+    }
 
 nav ul{
     gap: 72px;
